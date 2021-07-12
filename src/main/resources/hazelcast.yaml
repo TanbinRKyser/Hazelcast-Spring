@@ -1,0 +1,17 @@
+hazelcast:
+  network:
+    join:
+      auto-detection:
+        enabled: true
+      multicast:
+        enabled: false
+#        multicast-group: 224.2.2.3
+#        multicast-port:  54327
+#        multicast-time-to-live: 32
+#        multicast-timeout-seconds: 2
+#        trusted-interfaces:
+#          - 172.17.0.1
+      tcp-ip:
+        enabled: true
+        required-member: 172.17.0.1
+
